@@ -538,6 +538,7 @@ sphinx_gallery_conf = {
         # See https://sphinx-gallery.github.io/stable/configuration.html#link-to-documentation  # noqa
     },
     "filename_pattern": ".*",
+    "capture_repr": ("_repr_html_", "__repr__"),
     # examples -> gallery, tutorials -> user guide
     # the folders are separate so that the tutorials are not rendered as part
     # of the gallery
